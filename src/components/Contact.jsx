@@ -42,7 +42,7 @@ const Contact = () => {
           to_email: "msaryan619@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY,
       )
       .then(
         () => {
